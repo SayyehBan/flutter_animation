@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animation/animateContainerAndBoxdecoration.dart';
+import 'package:flutter_animation/moveInDifferentDirections.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AnimateContainerAndBoxdecoration(),
+      home: const MoveInDifferentDirections(),
     );
   }
 }
