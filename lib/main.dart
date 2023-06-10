@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animation/scaleAnimation.dart';
+import 'package:flutter_animation/animationcontroller.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ScaleAnimation(),
+      home: const Directionality(
+          textDirection: TextDirection.rtl,
+          child: AnimationBuildercontroller()),
     );
   }
 }
