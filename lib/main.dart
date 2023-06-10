@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animation/animationcontroller.dart';
+import 'package:flutter_animation/dedicateAnimations.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,8 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const Directionality(
-          textDirection: TextDirection.rtl,
-          child: AnimationBuildercontroller()),
+          textDirection: TextDirection.rtl, child: DedicateAnimations()),
     );
   }
 }
