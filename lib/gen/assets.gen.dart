@@ -12,12 +12,18 @@ import 'package:flutter/widgets.dart';
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/Sibil.svg
+  String get sibil => 'assets/images/Sibil.svg';
+
+  /// File path: assets/images/men.svg
+  String get men => 'assets/images/men.svg';
+
   /// File path: assets/images/spaceship.png
   AssetGenImage get spaceship =>
       const AssetGenImage('assets/images/spaceship.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [spaceship];
+  List<dynamic> get values => [sibil, men, spaceship];
 }
 
 class Assets {
