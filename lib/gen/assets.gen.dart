@@ -15,6 +15,9 @@ class $AssetsImagesGen {
   /// File path: assets/images/Sibil.svg
   String get sibil => 'assets/images/Sibil.svg';
 
+  /// File path: assets/images/basketball.svg
+  String get basketball => 'assets/images/basketball.svg';
+
   /// File path: assets/images/men.svg
   String get men => 'assets/images/men.svg';
 
@@ -23,7 +26,7 @@ class $AssetsImagesGen {
       const AssetGenImage('assets/images/spaceship.png');
 
   /// List of all assets
-  List<dynamic> get values => [sibil, men, spaceship];
+  List<dynamic> get values => [sibil, basketball, men, spaceship];
 }
 
 class Assets {
